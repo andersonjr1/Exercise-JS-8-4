@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercise4</title>
+</head>
+<body>
+    <aside>
+        <div id="containerRecipies"></div>
+        <button id="addButton">+</button>
+    </aside>
+    <main>
+        <div id="defaultMain">Adicione ou selecione uma receita para começar</div>
+        <div id="containerInputs" style="display: none">
+            <label for="inputTitle">Título:</label>
+            <div><input type="text" id="inputTitle"><button id="deleteButton">Deletar</button></div>
+            <label for="textAreaIngredients">Ingredientes</label>
+            <textarea id="textAreaIngredients"></textarea>
+            <div></div>
+            <label for="textAreaHow">Modo de preparo</label>
+            <textarea id="textAreaHow"></textarea>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

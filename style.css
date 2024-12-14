@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+
+}
+
+aside{
+    height: 100vh;
+    border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#addButton{
+    font-size: 1.9rem;
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    background-color: rgb(255, 201, 201);
+    cursor: pointer;
+}
+
+#addButton:hover{
+    background-color: rgb(218, 171, 171);
+}
+
+
+.recipe{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #B2F2BB;
+    transition: transform 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipeActive{
+    background-color: #A5D8FF;
+    border: 2px solid black;
+}
+
+
+.recipe:hover{
+    transform: scale(1.15);
+}
+
+#containerRecipies{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+label{
+    display: block;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+#containerInputs{
+    padding: 10px;
+}
+
+#deleteButton{
+    background-color: #FFC9C9;
+    border-radius: 4px;
+    border: 1px solid black;
+    position: absolute;
+    right: 70px;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+input{
+    font-size: 1.7rem;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+textarea{
+    resize: none;
+    width: 70%;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+#textAreaIngredients{
+    height: 400px;
+}
+
+#textAreaHow{
+    height: 300px;
+}
+
+#defaultMain{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+}
